@@ -267,8 +267,7 @@
        image: "e17_border7b.png" COMP;
     }
      
-    group {
-       name: "e/widgets/border/default/border";
+    group { name: "e/widgets/border/default/border";
        // ALSO:
        // borderless, noresize, shaped, nofocus, urgent, dialog, modal, skipped
        data {
@@ -1198,7 +1197,7 @@
                        name: "close_over_out";
                        signal: "mouse,out";
                        source: "e.event.close";
-                       action: STATE_SET "deafult" 0.0;
+                       action: STATE_SET "default" 0.0;
                        transition: LINEAR 0.2;
                        target: "close_detail";
                }
@@ -1214,7 +1213,7 @@
                        name: "max_over_out";
                        signal: "mouse,out";
                        source: "e.event.maximize";
-                       action: STATE_SET "deafult" 0.0;
+                       action: STATE_SET "default" 0.0;
                        transition: LINEAR 0.2;
                        target: "maximize_detail";
                }
@@ -1230,7 +1229,7 @@
                        name: "min_over_out";
                        signal: "mouse,out";
                        source: "e.event.minimize";
-                       action: STATE_SET "deafult" 0.0;
+                       action: STATE_SET "default" 0.0;
                        transition: LINEAR 0.2;
                        target: "minimize_detail";
                }
@@ -1371,7 +1370,7 @@
           }
           program {
              name:    "close_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_bg";
              target:  "close_detail";
              transition: LINEAR 0.1;
@@ -1380,7 +1379,7 @@
              name:    "close_passive_pre";
              signal:  "mouse,up,1";
              source:  "close";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_shadow1";
              target:  "close_shadow2";
              target:  "close_bg";
@@ -1436,7 +1435,7 @@
           }
           program {
              name:    "maximize_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "maximize_bg";
              target:  "maximize_detail";
              transition: LINEAR 0.1;
@@ -1445,7 +1444,7 @@
              name:    "maximize_passive_pre";
              signal:  "mouse,up,1";
              source:  "maximize";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "maximize_shadow1";
              target:  "maximize_shadow2";
              target:  "maximize_bg";
@@ -1501,7 +1500,7 @@
           }
           program {
              name:    "minimize_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "minimize_bg";
              target:  "minimize_detail";
              transition: LINEAR 0.1;
@@ -1510,7 +1509,7 @@
              name:    "minimize_passive_pre";
              signal:  "mouse,up,1";
              source:  "minimize";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "minimize_shadow1";
              target:  "minimize_shadow2";
              target:  "minimize_bg";
@@ -2425,7 +2424,7 @@
           }
           program {
              name:    "close_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_bg";
              target:  "close_detail";
              transition: LINEAR 0.1;
@@ -2434,7 +2433,7 @@
              name:    "close_passive_pre";
              signal:  "mouse,up,1";
              source:  "close";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_shadow1";
              target:  "close_shadow2";
              target:  "close_bg";
@@ -2490,7 +2489,7 @@
           }
           program {
              name:    "maximize_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "maximize_bg";
              target:  "maximize_detail";
              transition: LINEAR 0.1;
@@ -2499,7 +2498,7 @@
              name:    "maximize_passive_pre";
              signal:  "mouse,up,1";
              source:  "maximize";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "maximize_shadow1";
              target:  "maximize_shadow2";
              target:  "maximize_bg";
@@ -2555,7 +2554,7 @@
           }
           program {
              name:    "minimize_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "minimize_bg";
              target:  "minimize_detail";
              transition: LINEAR 0.1;
@@ -2564,7 +2563,7 @@
              name:    "minimize_passive_pre";
              signal:  "mouse,up,1";
              source:  "minimize";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "minimize_shadow1";
              target:  "minimize_shadow2";
              target:  "minimize_bg";
@@ -3614,7 +3613,7 @@
           }
           program {
              name:    "close_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_bg";
              target:  "close_detail";
              transition: LINEAR 0.1;
@@ -3623,7 +3622,7 @@
              name:    "close_passive_pre";
              signal:  "mouse,up,1";
              source:  "close";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_shadow1";
              target:  "close_shadow2";
              target:  "close_bg";
@@ -3679,7 +3678,7 @@
           }
           program {
              name:    "maximize_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "maximize_bg";
              target:  "maximize_detail";
              transition: LINEAR 0.1;
@@ -3688,7 +3687,7 @@
              name:    "maximize_passive_pre";
              signal:  "mouse,up,1";
              source:  "maximize";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "maximize_shadow1";
              target:  "maximize_shadow2";
              target:  "maximize_bg";
@@ -3744,7 +3743,7 @@
           }
           program {
              name:    "minimize_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "minimize_bg";
              target:  "minimize_detail";
              transition: LINEAR 0.1;
@@ -3753,7 +3752,7 @@
              name:    "minimize_passive_pre";
              signal:  "mouse,up,1";
              source:  "minimize";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "minimize_shadow1";
              target:  "minimize_shadow2";
              target:  "minimize_bg";
@@ -4893,7 +4892,7 @@
           }
           program {
              name:    "close_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_bg";
              target:  "close_detail";
              transition: LINEAR 0.1;
@@ -4902,7 +4901,7 @@
              name:    "close_passive_pre";
              signal:  "mouse,up,1";
              source:  "close";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_shadow1";
              target:  "close_shadow2";
              target:  "close_bg";
@@ -5961,7 +5960,7 @@
           }
           program {
              name:    "close_active_p";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_bg";
              target:  "close_detail";
              transition: LINEAR 0.1;
@@ -5970,7 +5969,7 @@
              name:    "close_passive_pre";
              signal:  "mouse,up,1";
              source:  "close";
-             action:  STATE_SET "active" 0.0;
+             action:  STATE_SET "default" 0.0;
              target:  "close_shadow1";
              target:  "close_shadow2";
              target:  "close_bg";

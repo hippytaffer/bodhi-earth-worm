@@ -371,7 +371,7 @@ group {
 	 name: "combo_state";
 	 signal: "e,state,combo";
 	 source: "e";
-	 action: STATE_SET "combo" 0.0;
+	 action: STATE_SET "default" 0.0;
 	 target: "e.swallow.icon";
 	 target: "e.text.label";
       }

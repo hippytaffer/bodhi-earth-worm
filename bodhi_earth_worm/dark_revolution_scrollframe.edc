@@ -877,7 +877,7 @@ group {
               name: "sb_hbar_in";
               signal: "mouse,in";
               source: "e.dragable.hbar";
-              action:  STATE_SET "hilited" 0.0;
+              action:  STATE_SET "default" 0.0;
               target: "e.dragable.hbar";
           //    target: "hbar_stipple";
               }
