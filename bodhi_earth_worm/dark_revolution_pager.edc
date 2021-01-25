@@ -4,7 +4,7 @@ group {
          image: "base_bg.png" COMP;
          image: "bd_top_hilight.png" COMP;
          image: "bd_title_bg.png" COMP;
-         image: "bd_title_over.png";
+         image: "bd_title_over.png" COMP;
       }
       parts {
          part {
