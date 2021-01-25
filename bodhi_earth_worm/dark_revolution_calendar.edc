@@ -5,8 +5,8 @@ images
 
 fonts
 {
-	font: "VeraMono.ttf" "VeraMono";
-	font: "VeraBd.ttf"   "VeraBold";
+	font: "Vera.ttf" "Vera";
+	font: "Vera.ttf"   "Edje-VeraBold";
 }
 
 
