@@ -1,6 +1,6 @@
-   fonts {
-  font: "Vera.ttf" "Vera"; 
-}
+   //~ fonts {
+  //~ font: "Vera.ttf" "Vera"; 
+//~ }
 
 images {
   image: "e17_clock_bg.png" COMP;

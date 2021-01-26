@@ -3,11 +3,11 @@ images
 	image: "e17_calendar.png" COMP;
 }
 
-fonts
-{
-	font: "Vera.ttf" "Vera";
-	font: "Vera.ttf"   "Edje-VeraBold";
-}
+//~ fonts
+//~ {
+	//~ font: "Vera.ttf" "Vera";
+	//~ font: "Vera.ttf"   "Edje-VeraBold";
+//~ }
 
 
 	group
