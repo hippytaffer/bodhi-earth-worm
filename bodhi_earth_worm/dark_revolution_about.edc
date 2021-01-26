@@ -66,22 +66,21 @@ group {
 	    color: 84 80 67 255;
 	 }
       }
-      part {
-	 name:          "sky";
-	 mouse_events:  0;
-	 description {
-	    state:    "default" 0.0;
-	    min:      400 160;
-	    max:      400 160;
-	    align:    0.5 1.0;
-	    fixed:    1 1;
-	    rel1 {
-	       relative: 0.0 1.0;
-	       offset:   7   -1;
+      part { name: "sky"; mouse_events:  0;
+	    description {
+		   image.normal: "e17_about_sky0.png"; 
+	       state:    "default" 0.0;
+	       min:      400 160;
+	       max:      400 160;
+	       align:    0.5 1.0;
+	       fixed:    1 1;
+	       rel1 {
+	          relative: 0.0 1.0;
+	          offset:   7   -1;
 	    }
-	    rel2 {
-	       relative: 1.0 1.0;
-	       offset:   -8 -1;
+	       rel2 {
+	          relative: 1.0 1.0;
+	          offset:   -8 -1;
 	    }
 	  /*  image {
 	       normal: "e17_about_sky0.png";
