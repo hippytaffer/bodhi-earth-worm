@@ -48,6 +48,7 @@ data
 collections {
 #include "macros.edc"
 #include "evrything.edc"
+#include "tasks.edc"
 #include "dark_revolution_background.edc"
 #include "dark_revolution_border.edc"
 #include "dark_revolution_clock.edc"
