@@ -49,6 +49,8 @@ collections {
 #include "macros.edc"
 #include "evrything.edc"
 #include "tasks.edc"
+#include "toolbar.edc"
+//#include "dark_revolution_systray.edc"
 #include "dark_revolution_background.edc"
 #include "dark_revolution_border.edc"
 #include "dark_revolution_clock.edc"

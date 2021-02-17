@@ -1,4 +1,4 @@
-images {
+	images {
    image: "e17_menu_bg_border.png" COMP;
    image: "e17_dialog_watermark.png" COMP;
    image: "e17_logo.png" COMP;
