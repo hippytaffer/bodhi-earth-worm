@@ -904,7 +904,7 @@ group { name: "e/widgets/ilist/toggle_end";
          description { state: "default" 0.0;
             image.normal: "e17_button_detail_minimize.png";
             aspect: 1.0 1.0; aspect_preference: BOTH;
-            max: 24 24;
+            max: 10 10;
             visible: 0;
          }
          description { state: "visible" 0.0;
