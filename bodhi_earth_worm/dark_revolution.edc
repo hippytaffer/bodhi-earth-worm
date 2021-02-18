@@ -46,6 +46,7 @@ data
 }
 
 collections {
+#include "syscon.edc"
 #include "macros.edc"
 #include "evrything.edc"
 #include "tasks.edc"
