@@ -8,7 +8,7 @@ group { name: "e/widgets/syscon/main";
          description { state: "default" 0.0;
             image.normal: "vgrad_med_lighter.png";
             fill.smooth: 0;
-            TILED_HORIZ(40)
+            //~ TILED_HORIZ(40)
          }
       }
       part { name: "bevel"; mouse_events: 0;
